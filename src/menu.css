@@ -1,0 +1,39 @@
+.menu-list {
+    display: flex;
+    color: white;
+    font-family: "Space Mono", monospace;
+    font-size: 25px;
+    justify-content: space-evenly;
+    padding: 1%;
+    text-shadow: 0px 0px 10px white;
+    background-color: black;
+}
+
+#about-me:hover {
+    color: rgba(239, 237, 160);
+    text-shadow: 0px 0px 20px white;
+    animation: largeText 0.5s ease-in-out forwards;
+}
+#skills:hover {
+    color: rgba(239, 237, 160);
+    text-shadow: 0px 0px 20px white;
+    animation: largeText 0.5s ease-in-out forwards;
+}
+#projects:hover {
+    color: rgba(239, 237, 160);
+    text-shadow: 0px 0px 20px white;
+    animation: largeText 0.5s ease-in-out forwards;
+}
+#contact:hover {
+    color: rgba(239, 237, 160);
+    text-shadow: 0px 0px 20px white;
+    animation: largeText 0.5s ease-in-out forwards;
+}
+@keyframes largeText {
+    from {
+        font-size: 25px;
+    }
+    to {
+        font-size: 28px;
+    }
+}

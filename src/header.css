@@ -1,0 +1,61 @@
+.header {
+  display: grid;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  transform: translateX(80px);
+}
+.left-header {
+  text-shadow: 0px 0px 10px white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.name {
+  color: white;
+  font-family: "Orbitron";
+  font-size: 90px;
+  line-height: 0.9; 
+  text-align: center;
+}
+.caption {
+  color: white;
+  font-family: "Space Mono", monospace;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 3%;
+}
+#moon-img {
+  width: 200px;
+  height: auto;
+  filter: drop-shadow(0px 0px 10px rgba(239, 237, 160, 0.75));
+  margin-left: 1%;
+}
+.logo-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+.right-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headshot {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#headshot-img {
+  width: 50%;
+  height: auto;
+  border-radius: 10%;
+  box-shadow: 0px 0px 15px lightblue;
+}

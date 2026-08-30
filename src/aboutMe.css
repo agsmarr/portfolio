@@ -1,0 +1,12 @@
+h1 {
+    color: white;
+    font-family: Orbitron;
+    text-shadow: 0px 0px 10px rgba(239, 237, 160);
+    font-size: 60px;
+}
+.aboutMe {
+    display: grid;
+    color: white;
+    font-size: 24px;
+    font-family: Space Mono;
+}
