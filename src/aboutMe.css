@@ -10,3 +10,43 @@ h1 {
     font-size: 24px;
     font-family: Space Mono;
 }
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 3%;
+}
+.photos a {
+    width: 20%;
+}
+.photos a:hover {
+    animation: increase 1s ease-in-out;
+}
+#dapper {
+    border-radius: 80px;
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 15px white
+}
+#dapper:hover {
+    transform: scale(1.1);
+    animation: glow 1s ease-in-out;
+}
+#udip {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0px 0px 15px rgba(239, 237, 160))
+}
+#udip:hover {
+    transform: scale(1.1);
+}
+#henhacks {
+    width: 100%;
+    height: auto;
+    display: block;
+    filter: drop-shadow(0px 0px 15px rgba(239, 237, 160))
+}
+#henhacks:hover {
+    transform: scale(1.1);
+}

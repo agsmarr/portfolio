@@ -4,10 +4,10 @@ function Menu() {
     return (
     <>
     <div className = 'menu-list'>
-        <div id = 'about-me'>About Me</div>
-        <div id = 'skills'>Skills</div>
-        <div id = 'projects'>Projects</div>
-        <div id = 'contact'>Contact Me</div>
+        <a href="#aboutMe" id="about-me">About Me</a>
+        <a href="#skills" id="skills">Skills</a>
+        <a href="#projects" id="projects">Projects</a>
+        <a href="#contact" id="contact">Contact Me</a>
     </div>
     </>
     )
