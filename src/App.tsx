@@ -22,12 +22,13 @@ function App() {
         <Header></Header>
       </div>
       <div className = 'background'>
-        <div id = 'bar2'>
+        <div id = 'bar2'></div>
+        <div id = 'aboutMe'>
+            <AboutMe></AboutMe>
         </div>
+        <div id = 'bar3'></div>
       </div>
-      <div id = 'aboutMe'>
-        <AboutMe></AboutMe>
-      </div>
+      
     </div>
     </>
   )
